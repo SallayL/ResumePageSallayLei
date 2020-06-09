@@ -1,20 +1,21 @@
 html, body {
   margin: 0;
   padding: 0;
+  border-radius:10px;
 }
 
 html {
   font-size: 9px;
  /* background-color: black;*/
     
-    background: url('https://images.pexels.com/photos/3787324/pexels-photo-3787324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center fixed;     
+    background: url('https://images.pexels.com/photos/2662792/pexels-photo-2662792.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') no-repeat center fixed;     
     background-size: cover;
 
    
 }
 
 body {
-    
+    border-radius:10px;
   width: 70%;
   margin: 0 auto;
 }
@@ -29,6 +30,7 @@ h1, h2, h3 {
 h1.name{
   font-size: 25px;
   color: white;
+  font-family:'Lucida Console'
 }
 
 h1.name:hover{
@@ -76,10 +78,12 @@ p{
 nav, article, aside, footer {
   background-color: white;
   padding: 1%;
+  border-radius:5px;
   
 }
 
 nav {
+  
   height: 50px;
   background-color: whitesmoke;
   display: flex;
@@ -143,4 +147,6 @@ footer {
   margin-top: 50px;
   text-align: center;
   opacity: 0.90;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
 }
